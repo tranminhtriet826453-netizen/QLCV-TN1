@@ -1,0 +1,51 @@
+CÀI QLCV LÊN MÀN HÌNH CHÍNH CÓ BIỂU TƯỢNG LOGO ĐOÀN
+
+Vì sao cần gói này: web Apps Script do Google phục vụ không cho thêm tệp khai báo ứng dụng
+và biểu tượng. Gói này là một trang nhỏ đặt trên GitHub Pages (miễn phí), có đủ biểu tượng,
+bên trong mở web QLCV. Trang này KHÔNG chứa dữ liệu, chỉ chứa đường dẫn và biểu tượng.
+
+BƯỚC 0. Cập nhật mã Apps Script mới nhất (bắt buộc)
+  Dán Code.gs, Style, Client mới, rồi Triển khai > Quản lý bản triển khai > Phiên bản mới.
+  Bản mới cho phép web được mở bên trong ứng dụng cài đặt.
+
+BƯỚC 1. Tạo biểu tượng từ logo Đoàn
+  - Bấm đúp tao-icon.html (mở bằng Chrome), chọn ảnh logo Đoàn.
+  - Bấm tải đủ 4 tệp: icon-192.png, icon-512.png, icon-maskable-512.png, icon-180.png.
+  - Chép 4 tệp vừa tải vào thư mục này, GHI ĐÈ 4 tệp biểu tượng tạm (chữ Đ).
+
+BƯỚC 2. Dán đường dẫn ứng dụng web
+  - Mở config.js bằng TextEdit.
+  - Thay DAN_URL_UNG_DUNG_WEB_VAO_DAY bằng URL ứng dụng web (kết thúc bằng /exec), giữ nguyên hai dấu nháy.
+  - Lưu lại.
+
+BƯỚC 3. Đưa lên GitHub Pages
+  1. Vào github.com, tạo tài khoản (nếu chưa có).
+  2. Bấm New repository, đặt tên: qlcv, chọn Public, bấm Create repository.
+  3. Bấm "uploading an existing file", kéo TẤT CẢ các tệp trong thư mục này vào (kéo các tệp, không kéo cả thư mục),
+     bấm Commit changes.
+  4. Vào Settings > Pages. Mục Source chọn "Deploy from a branch", Branch chọn "main" và "/ (root)", bấm Save.
+  5. Đợi 1-2 phút. Đường dẫn của bạn sẽ là:
+       Học sinh:  https://TEN-TAI-KHOAN.github.io/qlcv/
+       Cán bộ:    https://TEN-TAI-KHOAN.github.io/qlcv/canbo.html
+
+BƯỚC 4. Cài lên máy
+  - Điện thoại Android (Chrome): mở đường dẫn > nút ba chấm > "Thêm vào màn hình chính" hoặc "Cài đặt ứng dụng".
+  - iPhone (Safari): mở đường dẫn > nút Chia sẻ > "Thêm vào MH chính".
+  - Máy tính (Chrome, kể cả Mac): mở đường dẫn > biểu tượng cài đặt ở cuối thanh địa chỉ,
+    hoặc nút ba chấm > "Truyền, lưu và chia sẻ" > "Cài đặt trang dưới dạng ứng dụng".
+  Tên gọi các mục có thể khác chút tùy phiên bản trình duyệt.
+  Học sinh cài đường dẫn Học sinh (tên "QLCV Đoàn"); cán bộ cài đường dẫn Cán bộ (tên "QLCV Cán bộ").
+
+BƯỚC 5 (không bắt buộc). Biểu tượng trên tab trình duyệt
+  Trong QLCV > Tài khoản & cài đặt > "Biểu tượng trên tab trình duyệt", dán:
+       https://TEN-TAI-KHOAN.github.io/qlcv/icon-192.png
+
+ĐỔI LOGO SAU NÀY
+  Làm lại Bước 1 rồi tải 4 tệp mới lên kho qlcv trên GitHub (Add file > Upload files, ghi đè).
+  Máy đã cài có thể cần xóa và cài lại mới thấy biểu tượng mới.
+
+LƯU Ý
+  - Gửi cho học sinh đường dẫn GitHub hoặc đường dẫn /exec đều được, cả hai mở cùng một web.
+  - Đầu trang có thể hiện dòng thông báo của Google về ứng dụng Apps Script; đây là bình thường.
+  - Trên iPhone, ứng dụng cài đặt có thể đôi khi yêu cầu cán bộ đăng nhập lại.
+  - Nếu ứng dụng cài đặt gặp lỗi, vẫn dùng được bằng đường dẫn /exec trực tiếp.
